@@ -1,4 +1,4 @@
-function myfunction()
+﻿function myfunction()
 		{
 		var form = document.getElementById('applystatus').value;
 		var flag = form.substr(form.length-6)
@@ -14,15 +14,15 @@ function myfunction()
 			{
 				alert(12)
 			}
-			else if (flag == "ce68501")
+			else if(flag == "ce68501")
 			{
 				alert(8)
 			}
-			else if (flag == "14c001")
+			else if(flag == "14c001")
 			{
 				alert(22)
 			}
-			else if (flag == "d2c301")
+			else if(flag == "d2c301")
 			{
 				alert(10)
 			}
